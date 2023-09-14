@@ -5,16 +5,19 @@ import './App.css'
 import Card from "./Components/Card"
 import Sidebar from './Components/Sidebar'
 import MainRoutes from './Routes/MainRoutes'
+import Table from './Components/Table'
+import Login from './Pages/Login'
+
 
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className="h-full flex ">
+    <div className="flex  bg-gray-200 ">
       <Sidebar />
       <MainRoutes/>
-      {/* Main content goes here */}
+      {/* <Login/> */}
     </div>
   )
 }
