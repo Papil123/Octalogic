@@ -14,7 +14,7 @@ import {
 const TableComponent = () => {
   return (
     <div>
-      <Table>
+      <Table className="bg-white"  >
   <TableCaption>A list of your recent invoices.</TableCaption>
   <TableHeader>
     <TableRow>
